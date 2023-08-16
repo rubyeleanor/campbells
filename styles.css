@@ -1,0 +1,157 @@
+body {
+    background-color: #0e142e;
+    color: #8a7037;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#homeimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    max-height: 70px;
+    margin: 0.5em;
+
+}
+
+#mainlogo {
+    max-height: 400px;
+}
+
+
+nav>ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    color: #8a7037;
+    text-decoration: none;
+    font-size: 1.5em;
+    letter-spacing: 0.2em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#logo:hover {
+    opacity: 0.8;
+}
+
+main {
+
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footercontainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.5em 1em;
+
+}
+
+#socialmedia>a {
+    margin: 0 1em;
+
+}
+
+#copyright {
+    font-size: 1em;
+
+}
+
+h1 {
+
+    letter-spacing: 0.2em;
+}
+
+h2 {
+    letter-spacing: 0.2em;
+}
+
+/*visit us page */
+
+.maintext {
+    width: 600px;
+    text-align: center;
+
+}
+
+.srgallery {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.srimage {
+    width: 300px;
+    height: auto;
+    padding: 1em 2em;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.srinfo {
+    min-width: 300px;
+    padding: 1em 2em;
+    text-align: center;
+}
+
+
+iframe {
+    width: 700px;
+    height: 350px;
+}
+
+/*gallery*/
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.gallery img:hover {
+    opacity: 0.8;
+}
+
+.gallery::after {
+    content: "";
+    width: 350px;
+}
